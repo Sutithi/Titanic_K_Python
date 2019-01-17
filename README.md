@@ -22,7 +22,9 @@
 
 # Acqire data
     train_df = pd.read_csv('../input/train.csv')
+    #train_df = pd.read_csv("../input/train.csv", delimiter=",")
     test_df = pd.read_csv('../input/test.csv')
+    #test_df = pd.read_csv("../input/test.csv", delimiter=",")
     combine = [train_df, test_df]
 
 
